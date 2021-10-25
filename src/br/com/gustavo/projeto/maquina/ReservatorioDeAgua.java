@@ -12,8 +12,7 @@ public class ReservatorioDeAgua extends Armazenagem {
 			System.out.println("Ainda tem agua no Reservatorio ! " + quantiaNecessariaDeAguaDoReservatorio);
 
 		} else {
-			double estaFaltandoAguaNoReservatorio = agua - 1000;
-			System.out.println("Esta faltando agua no Reservatorio " + estaFaltandoAguaNoReservatorio);
+			System.out.println("Esta faltando agua no Reservatorio");
 		}
 	}
 
